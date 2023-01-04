@@ -79,7 +79,17 @@ const BillingAddress = () => {
           </div>
         </div>
         <FormControlLabel
-          control={<Checkbox defaultChecked />}
+          control={
+            <Checkbox
+              defaultChecked
+              sx={{
+                color: "#F8991F",
+                "&.Mui-checked": {
+                  color: "#F8991F",
+                },
+              }}
+            />
+          }
           label="Same as Home Address"
         />
         <div className="billing-address-wrapper">
@@ -146,7 +156,6 @@ const BillingAddress = () => {
                 </Select>
               </FormControl>
             </Grid>
-
             <Grid item xs={6} md={6}>
               <FormControl variant="standard" fullWidth={true}>
                 <InputLabel shrink htmlFor="bootstrap-input">

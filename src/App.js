@@ -50,7 +50,7 @@ function App() {
       marginTop: "auto",
     },
     [theme.breakpoints.up("md")]: {
-      marginTop: "-350px",
+      marginTop: "-360px",
     },
   }));
 

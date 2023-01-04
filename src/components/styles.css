@@ -167,3 +167,28 @@
 .invitation-wrapper-outer {
   padding-bottom: 10px;
 }
+
+.navbar--close-icon-wrapper {
+  background-color: #fff;
+  color: #000;
+  height: 30px;
+  width: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+}
+
+.logo-wrapper {
+  position: absolute;
+  left: 16px;
+  font-weight: bold;
+}
+
+.mobile-navbar-content-wrapper {
+  padding: 15px;
+}
+
+.navbar-menu-content {
+  padding: 15px;
+}
