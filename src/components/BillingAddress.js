@@ -68,6 +68,7 @@ const BillingAddress = () => {
           </div>
           <div>
             <Button
+              size="small"
               style={{
                 backgroundColor: "#0C611A",
               }}

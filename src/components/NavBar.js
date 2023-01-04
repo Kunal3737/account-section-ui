@@ -13,7 +13,7 @@ import Tooltip from "@mui/material/Tooltip";
 import MenuItem from "@mui/material/MenuItem";
 import NotificationsNoneIcon from "@mui/icons-material/NotificationsNone";
 
-const pages = ["Products", "Pricing", "Blog"];
+const pages = ["Menu 1", "Menu 2", "Menu 3"];
 const settings = ["Profile", "Account", "Dashboard", "Logout"];
 
 const NavBar = () => {
@@ -36,8 +36,8 @@ const NavBar = () => {
   };
 
   return (
-    <AppBar position="static">
-      <Container maxWidth="xl">
+    <AppBar position="static" style={{ backgroundColor: "#232E3E" }}>
+      <Container maxWidth="auto">
         <Toolbar disableGutters>
           <Typography
             variant="h6"
@@ -110,12 +110,24 @@ const NavBar = () => {
           >
             LOGO
           </Typography>
-          <Box sx={{ flexGrow: 1, display: { xs: "none", md: "flex" } }}>
+          <Box
+            sx={{
+              flexGrow: 1,
+              marginLeft: "30px",
+              display: { xs: "none", md: "flex" },
+            }}
+          >
             {pages.map((page) => (
               <Button
+                size="small"
                 key={page}
                 onClick={handleCloseNavMenu}
-                sx={{ my: 2, color: "white", display: "block" }}
+                sx={{
+                  my: 2,
+                  color: "white",
+                  display: "block",
+                  marginLeft: "30px",
+                }}
               >
                 {page}
               </Button>

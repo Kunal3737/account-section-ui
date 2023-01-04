@@ -6,7 +6,7 @@ import "./styles.css";
 const Invitations = ({ activeStep, setActiveStep }) => {
   return (
     <div>
-      <div className="activities-wrapper">
+      <div className="activities-wrapper invitation-wrapper-outer">
         <div>Invitations</div>
         <div className="invitation-wrapper">
           <div
@@ -21,7 +21,7 @@ const Invitations = ({ activeStep, setActiveStep }) => {
               }`,
             }}
           >
-            Sent (15)
+            Sent (10)
           </div>
           <div
             onClick={() => {
@@ -35,7 +35,7 @@ const Invitations = ({ activeStep, setActiveStep }) => {
               color: `${activeStep === "received" ? "#fff" : "#000"}`,
             }}
           >
-            Received (5)
+            Received (6)
           </div>
         </div>
       </div>

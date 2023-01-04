@@ -42,7 +42,7 @@ function a11yProps(index) {
   };
 }
 
-export default function BasicTabs() {
+export default function BasicTabs({ windowWidth }) {
   const [value, setValue] = React.useState(0);
 
   const handleChange = (event, newValue) => {
@@ -67,7 +67,7 @@ export default function BasicTabs() {
         <MyFamily />
       </TabPanel>
       <TabPanel value={value} index={1}>
-        <Wallet />
+        <Wallet windowWidth={windowWidth} />
       </TabPanel>
       <TabPanel value={value} index={2}>
         <VerticalLinearStepper />

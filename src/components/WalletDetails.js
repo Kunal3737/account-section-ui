@@ -7,7 +7,7 @@ const WalletDetails = ({ cardNumber, subText, windowWidth }) => {
     <div
       className="wallet-details-wrapper"
       style={{
-        backgroundColor: windowWidth <= 600 ? "f5f6f8" : "#fff",
+        backgroundColor: windowWidth <= 600 ? "#f5f6f8" : "#fff",
       }}
     >
       <div className="fam-list-wrapper">
@@ -25,6 +25,7 @@ const WalletDetails = ({ cardNumber, subText, windowWidth }) => {
       {windowWidth <= 600 && (
         <div>
           <Button
+            size="small"
             variant="contained"
             style={{
               maxHeight: "28px",

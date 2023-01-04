@@ -158,3 +158,12 @@
   margin-top: 8px;
   margin-right: 8px;
 }
+
+.received-wrapper {
+  height: 370px;
+  overflow-y: auto;
+}
+
+.invitation-wrapper-outer {
+  padding-bottom: 10px;
+}

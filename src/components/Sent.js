@@ -1,10 +1,11 @@
 import React from "react";
 import SentDetails from "./SentDetails";
+import "./styles.css";
 
 const Sent = () => {
-  const arr = [1, 2, 3, 4, 5, 6];
+  const arr = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
   return (
-    <div>
+    <div className="received-wrapper">
       {arr.map((item) => (
         <SentDetails
           cardTitleText={

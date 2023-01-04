@@ -60,6 +60,7 @@ const MyFamilyFormDetails = ({ windowWidth }) => {
       display: "flex",
       flexDirection: "row",
       justifyContent: "space-between",
+      alignItems: "center",
     },
   }));
 
@@ -173,6 +174,7 @@ const MyFamilyFormDetails = ({ windowWidth }) => {
           </FormInputWrapper>
           <ButtonWrapper>
             <Button
+              size="small"
               style={{
                 backgroundColor: windowWidth >= 426 ? "#0C611A" : "#232E3E",
                 marginRight: "10px",
@@ -180,11 +182,12 @@ const MyFamilyFormDetails = ({ windowWidth }) => {
               }}
               variant="contained"
             >
-              {windowWidth >= 426 ? "Save" : "Edit Profile"}
+              {windowWidth >= 426 ? "Save Changes" : "Edit Profile"}
             </Button>
             {windowWidth >= 426 && (
               <>
                 <Button
+                  size="small"
                   style={{
                     backgroundColor: "#232e3e",
                     margin: "10px 10px 0 0",
@@ -194,6 +197,7 @@ const MyFamilyFormDetails = ({ windowWidth }) => {
                   Change Password
                 </Button>
                 <Button
+                  size="small"
                   style={{
                     backgroundColor: "#ff3a3a",
                     margin: "10px 10px 0 0",

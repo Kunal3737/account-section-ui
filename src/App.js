@@ -50,7 +50,7 @@ function App() {
       marginTop: "auto",
     },
     [theme.breakpoints.up("md")]: {
-      marginTop: `${activeStep === "sent" ? "-330px" : "-390px"}`,
+      marginTop: "-350px",
     },
   }));
 
@@ -60,7 +60,7 @@ function App() {
       overflowY: "auto",
     },
     [theme.breakpoints.up("md")]: {
-      height: "430px",
+      height: "460px",
       overflowY: "auto",
     },
   }));
@@ -72,7 +72,7 @@ function App() {
         {windowSize.innerWidth <= 600 ? (
           <>
             <PageTitle />
-            <BasicTabs />
+            <BasicTabs windowWidth={windowSize.innerWidth} />
           </>
         ) : (
           <div>
@@ -86,6 +86,7 @@ function App() {
                 </div>
                 <div>
                   <Button
+                    size="small"
                     style={{
                       backgroundColor: "#232E3E",
                     }}
@@ -135,6 +136,7 @@ function App() {
                             </div>
                             <div>
                               <Button
+                                size="small"
                                 style={{
                                   backgroundColor: "#0C611A",
                                 }}
@@ -182,6 +184,7 @@ function App() {
                           </div>
                           <div>
                             <Button
+                              size="small"
                               style={{
                                 backgroundColor: "#0C611A",
                               }}
