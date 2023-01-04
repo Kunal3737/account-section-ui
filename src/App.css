@@ -1,0 +1,31 @@
+.app-wrapper {
+  padding: 15px;
+}
+
+.activities-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.stepper-wrapper {
+  height: 336px;
+  overflow-y: auto;
+}
+
+.app-header-title-wrapper {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-bottom: 15px;
+}
+
+.app-header-success-msg {
+  width: 300px;
+  color: #247332;
+  background-color: #cef2da;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 4px;
+  border-radius: 4px;
+}

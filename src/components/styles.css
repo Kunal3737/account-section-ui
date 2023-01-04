@@ -1,0 +1,160 @@
+.MuiCardContent-root {
+  padding: 8px !important;
+}
+
+.MuiCard-root {
+  background-color: #f5f6f8 !important;
+}
+
+.activities-wrapper {
+  display: flex;
+  justify-content: space-between;
+}
+
+.billing-address-wrapper {
+  margin-bottom: 20px;
+}
+
+.country-name-wrapper {
+  margin-top: 22px;
+  margin-left: 10px;
+}
+
+.invitation-wrapper {
+  display: flex;
+  background-color: #dbdbdb;
+  border-radius: 20px;
+  align-items: center;
+}
+
+.invitation-toggle-wrapper {
+  font-size: 12px;
+  padding: 4px 8px;
+  border-radius: 20px;
+  cursor: pointer;
+}
+
+.my-family-wrapper {
+  padding-bottom: 100px;
+}
+
+.my-family-form-details-content {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.my-family-form-details-photo-wrapper {
+  height: 80px;
+  min-width: 80px;
+  background-color: red;
+  border-radius: 50%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-right: 12px;
+}
+
+.fam-list-wrapper {
+  display: flex;
+  align-items: center;
+}
+
+.fam-list--serach-icon-wrapper {
+  margin-right: 15px;
+  display: flex;
+  align-items: center;
+}
+
+.fam-list--profile-wrapper {
+  margin-top: 8px;
+  height: 258px;
+  overflow-y: auto;
+}
+
+.people-profile-wrapper {
+  height: 45px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  margin-top: 8px;
+}
+
+.people-profile-photo-wrapper {
+  width: 28px;
+  height: 28px;
+  border-radius: 50%;
+  background-color: grey;
+  margin-right: 10px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.people-profile--people-alt-icon {
+  width: 30px;
+  height: 30px;
+  border-radius: 4px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  margin-left: 4px;
+}
+
+.people-profile-member-wrapper {
+  background-color: #cad7f5;
+  color: #000;
+}
+
+.received-name-wrapper {
+  color: #f79b26;
+}
+
+.received-details-wrapper {
+  background-color: #dee8ff;
+  height: 60px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  margin-top: 8px;
+}
+
+.received-details-card-title-wrapper {
+  display: flex;
+  flex-direction: column;
+}
+
+.received-details--done-wrapper {
+  display: flex;
+}
+
+.sent-details-wrapper {
+  backgroundc-color: #dee8ff;
+  height: 50px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 15px;
+  margin-top: 8px;
+}
+
+.stepper-title-wrapper {
+  color: #f9a53a;
+}
+
+.wallet-details-wrapper {
+  height: 60px;
+  border-radius: 4px;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 0 8px;
+  margin-top: 8px;
+  margin-right: 8px;
+}
